@@ -1,8 +1,8 @@
-export default function MealDetailPage({ params }) {
+export default function MealsLayout({ children }) {
   return (
     <main>
-      <h1>Meal Detail Page</h1>
-      <p>Meal Slug: {params.mealSlug}</p>
+      <h1>Meal Layout</h1>
+      {children}
     </main>
   );
 }
